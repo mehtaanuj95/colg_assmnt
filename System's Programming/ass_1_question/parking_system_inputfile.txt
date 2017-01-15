@@ -1,0 +1,24 @@
+/*car_id	Arrival Time	*/
+C1	0	
+C2	0	
+C3	0	
+C4	2	
+C5	2	
+C6	2	
+C7	2	
+C8	3	
+C9	3		
+C10	5	
+C11	7	
+C12	7		
+C13	9
+
+
+Current status of parking system:
+L1	L2	L3	L4	L5
+C1	C2	C3	C4	C5
+C6	C8	C7	C9	C10
+C11			C12
+C13
+
+NOTE: take the time slot of 1 unit each. You can read the data of files only after they have arrived. For Eg:at time t=0 you can read the data of cars arriving at only t=0 i.e C1, C2 and C3. Then time slot increases to t=1 at which no one arrives and when eventually time becomes t=2 then only you can read data of cars C4,C5,C6 and C7.Likewise is the case for all the cars.

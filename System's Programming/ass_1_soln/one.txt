@@ -1,0 +1,5 @@
+This is a sample text document;
+This is second line
+This is third linie.
+This is 12 34 45 67  78 fourth line.
+This is last luine/.
