@@ -12,8 +12,8 @@ using namespace std;
 
 const unsigned int prime = 4294967291u;
 unsigned int halfprime;
-unsigned int m_index;
-unsigned int m_intermediateOffset;
+unsigned int m1;
+unsigned int m2;
 
 int calculate_quadratic_residue(int x)
 {
@@ -31,14 +31,14 @@ int calculate_quadratic_residue(int x)
 
 void seed(int seedBase, int seedOffset)
 {
-    m_index = calculate_quadratic_residue(calculate_quadratic_residue(seedBase) + 0x1f233144);
-    m_intermediateOffset = calculate_quadratic_residue(calculate_quadratic_residue(seedOffset) + 0x1234f52a);
+    m1 = calculate_quadratic_residue(calculate_quadratic_residue(seedBase) + 0x1f233144);
+    m2 = calculate_quadratic_residue(calculate_quadratic_residue(seedOffset) + 0x1234f52a);
 }
 
 //Returns a unique random number
 int generate()
 {
-    return calculate_quadratic_residue((calculate_quadratic_residue(m_index++) + m_intermediateOffset) ^ 0x4ba52c19);
+    return calculate_quadratic_residue((calculate_quadratic_residue(m1++) + m2) ^ 0x4ba52c19);
 }
 
 int getUniqueRandomNumber()

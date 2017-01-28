@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+len=`expr $1|wc -m`
+if [ $len -lt 10 ]
+then
+	echo "less than 10"
+else
+	echo "ok"
+fi

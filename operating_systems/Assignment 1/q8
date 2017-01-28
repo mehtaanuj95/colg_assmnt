@@ -1,0 +1,22 @@
+#!/bin/bash
+
+a=directory
+if [ -d $1 ]
+then 
+echo "hello dir"
+fi
+
+if [ "a" = "a" ]
+then
+echo "a == a"
+fi
+
+c=`"$name" = "$a"`
+name=`file $1 -b`
+if [ "$name" = "$a" ]
+then
+	echo $a
+else
+	det=`ls -l $1`
+	echo $det
+fi

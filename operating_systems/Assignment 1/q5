@@ -1,0 +1,5 @@
+#!/bin/bash
+
+len=`grep -o -o $2 $1 | grep -c $2`
+ 
+echo $len
