@@ -151,17 +151,17 @@ int main(int argc, char* argv[])
 		t = clock();
 		countingSort(a3,500,b3);
 		t = clock() - t;
-		cout<<"Test Case 3__Size : 1000__Time (in ticks) : "<<t<<endl<<endl;
+		cout<<"Test Case 3__Size : 500__Time (in ticks) : "<<t<<endl<<endl;
 
 		t = clock();
 		countingSort(a4,1000,b4);
 		t = clock() - t;
-		cout<<"Test Case 4__Size : 5000__Time (in ticks) : "<<t<<endl<<endl;
+		cout<<"Test Case 4__Size : 1000__Time (in ticks) : "<<t<<endl<<endl;
 
 		t = clock();
 		countingSort(a5,5000,b5);
 		t = clock() - t;
-		cout<<"Test Case 5__Size : 10000__Time (in ticks) : "<<t<<endl<<endl;
+		cout<<"Test Case 5__Size : 5000__Time (in ticks) : "<<t<<endl<<endl;
 
 	}
 	else
