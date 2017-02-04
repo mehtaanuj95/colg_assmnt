@@ -8,4 +8,4 @@ do
    a=`expr $a \* $b `
    b=`expr $b + 1`
 done
-echo $a
+echo /
