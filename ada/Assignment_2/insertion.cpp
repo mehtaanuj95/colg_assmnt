@@ -8,14 +8,23 @@ using namespace std;
 
 void insertionSort(int arr[], int n)
 {	
-   	int i, key, j,comp_counter = 0, swap_counter = 0;
+   	int i, key,flag=0,  j,comp_counter = 0, swap_counter = 0;
    	for (i = 1; i < n; i++)
    	{
    		comp_counter++;
        	key = arr[i];
        	j = i-1;
+       	flag = 0;
        	while (j >= 0 && arr[j] > key)
        	{
+       		if(flag >0)
+       		{
+       			comp_counter++;
+       		}
+       		else
+       		{
+       			flag++;
+       		}
        		swap_counter++;
         	arr[j+1] = arr[j];
            	j = j-1;
