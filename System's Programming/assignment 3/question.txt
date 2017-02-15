@@ -1,0 +1,15 @@
+Shri G.S. Institute of Technology and Science, Indore
+
+Department of Computer Engineering
+
+CO 3452: Operating Systems
+
+Lab Assignment #03
+
+ 
+
+1: Write 'C' program using linux system calls , to develop following utilities :-
+
+Copy : To copy a given file to another specified file.
+Disp_Contents: To read a specified file and display its contents on the screen.
+Append_File: To append the contents of a given file to another specified file.
