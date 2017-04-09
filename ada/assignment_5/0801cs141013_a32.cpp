@@ -82,9 +82,9 @@ void lcs(char *A, char *B, char* C, int m, int n, int p)
 
 int main()
 {
-	char A[] = "GXTXAYB";
- 	char B[] = "AGGTAB";
- 	char C[] = "AGAB";
+	char A[] = "ABCDEFG";
+ 	char B[] = "AAADEF";
+ 	char C[] = "KKKADEF";
 
 	int m = strlen(A);
     int n = strlen(B);

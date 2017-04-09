@@ -18,7 +18,7 @@ int lps(char *s, int i, int j)
 }
 int main()
 {
-	char s[]="sadkfjaslkjdfhklsajfhhhhfjj";
+	char s[]="abcdgcdeeab";
 	int n = strlen(s);
 	cout<<lps(s,0,n-1)<<endl;
 	return 0;

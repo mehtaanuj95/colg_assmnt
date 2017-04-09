@@ -38,7 +38,7 @@ int main()
 
 	for(int i = 0;i<n;i++)
 	{
-		cost[i] = maxcost(a,4,i);
+		cost[i] = maxcost(a,3,i);
 	}
 	int max = cost[0];
 	for(int i = 1;i<n;i++)
