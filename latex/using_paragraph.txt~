@@ -1,0 +1,7 @@
+\documentclass{article}
+\begin{document}
+\paragraph{Paragraph}
+This is the main text that comes in paragraph. It will consist of some data and hen will comprise of a sub paragraph.
+\subparagraph{Subparagraph}
+This is part of sub paragraph.
+\end{document}

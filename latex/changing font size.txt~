@@ -1,0 +1,11 @@
+\documentclass{article}
+\begin{document}
+
+%we change the size locally using \large type commands
+This is some random text
+\newline
+{\Large This is some large text\par}
+{\huge This is some ultra large text\par}
+
+
+\end{document}
