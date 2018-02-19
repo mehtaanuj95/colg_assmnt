@@ -1,3 +1,8 @@
+/*
+Author : Anuj BHai Mehta
+Description : Bresenhem Line Drawing Algorithm
+*/
+
 var x1 = 100, y1 = 200, x2 = 300, y2 = 400;
 
 function setup() 
