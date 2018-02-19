@@ -20,7 +20,6 @@ function draw()
    	var slope_error_new = m_new - (x2 - x1);
    	for (var x = x1, y = y1; x <= x2; x++)
    	{
-      	//cout << "(" << x << "," << y << ")\n";
  		console.log(x + " " + y);
       	slope_error_new += m_new;
  		line(oldx, oldy, x, y);
